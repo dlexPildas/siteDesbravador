@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+
+
+/*Formatação da div onde fica as fotos e os textos*/
+div#corpo {
+    width: 600px;
+    background-color: white;
+    margin: auto auto auto auto;
+    padding: 10px 10px 10px 10px;
+}
+div#corpo img{
+    width: 400px;
+}
+
+
+
+/*Formatação do cabeçalho*/
+header#cabecalho {
+    border-bottom: 2px black solid;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+}
+/*Formatação do menu*/
+
+nav#menu li{
+    background-color: #b2dba1;
+    padding: 20px;
+    //margin: 5px;
+}
+
+
+
+nav#menu a{
+    color: black;
+    text-decoration: none;
+    font-family:"Cooper Black";
+}
+
+/*Configuração das imagens e textos*/
